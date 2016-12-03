@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddCompanionDialog</class>
+ <widget class="QDialog" name="AddCompanionDialog">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>206</width>
+    <height>73</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить собеседника</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="addButton">
+         <property name="text">
+          <string>Добавить</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>Отмена</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
